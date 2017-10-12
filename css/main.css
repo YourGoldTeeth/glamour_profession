@@ -1,0 +1,271 @@
+#square-one {
+  position: static;
+ /* z-index: 1;*/
+/*  width: 262px; 
+  height: 262px; */
+  /*background-color:(0,0,0,0.6);*/
+  /*margin-bottom: -262px;*/
+}
+
+#blackbox-one {
+  width: 262px;
+  height:262px;
+  background-color:black;
+  /*z-index: 2;*/
+  /*position: relative;*/
+  /*margin-bottom: -262px;*/
+  opacity: 0;
+  margin-top: -262px;
+}
+
+#blackbox-two {
+  width: 262px;
+  height:262px;
+  background-color:black;
+  z-index: 2;
+  position: relative;
+  /*margin-bottom: -262px;*/
+  opacity: 0;
+  margin-top: -262px;
+}
+
+#blackbox-three {
+  width: 262px;
+  height:262px;
+  background-color:black;
+  z-index: 2;
+  position: relative;
+  /*margin-bottom: -262px;*/
+  opacity: 0;
+  margin-top: -262px;
+}
+
+#blackbox-four {
+  width: 262px;
+  height:262px;
+  background-color:black;
+  z-index: 2;
+  position: relative;
+  /*margin-bottom: -262px;*/
+  opacity: 0;
+  margin-top: -262px;
+}
+
+
+.btn {
+  /*margin-left: 131px;*/
+  vertical-align: middle;
+  margin-top: 8em;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+header {
+  padding: 20px 0;
+}
+
+nav li {
+    font-size: 2em;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.top {
+  border-bottom: 1px solid #ccc;
+}
+
+.bottom {
+  border-top: 1px solid #ccc;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  max-width: 30%;
+  height: auto;
+  margin-left: 4em
+}
+
+.social_icons {
+  /*display: flex;
+  max-width: 30%;
+  height: auto;*/
+  margin-bottom: 1em;
+  margin-left: 1em;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-size: 2em;
+}
+
+.ep-link {
+  margin-top: 1em;
+  margin-left: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+.lp-link {
+  margin-top: 1em;
+  margin-right: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+.ep-cover {
+  display: flex;
+  align-items: center;
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*background-color: lightpink;*/
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /*height: 95vh;*/
+  /*height: auto;*/
+  margin-left: 1em;
+  max-width: 95%
+
+  
+  /*max-width: 100%;*/
+
+}
+
+.ep-cover-row-1 {
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*background-color: lightpink;*/
+  margin-top: 2em;
+  margin-bottom: 1em;
+  /*margin-right: 1em;*/
+  /*height: 95vh;*/
+  /*height: auto;*/
+  /*margin-left: 1em;*/
+  /*max-width: 95%*/
+}
+
+  .ep-cover-row-2 {
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*background-color: lightpink;*/
+  margin-top: 1em;
+  margin-bottom: 2em;
+  /*padding-right: 1em;*/
+  /*margin-right: 1em;*/
+  /*height: 95vh;*/
+  /*height: auto;*/
+  /*margin-left: 1em;*/
+  /*max-width: 95%*/
+}
+
+#square-two {
+
+}
+
+.links {
+  margin-bottom: 1em;
+  margin-right: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+.jumbotron {
+    background-image: url(img/epcover.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20%;
+    margin-top: -70px;
+    margin-bottom: 0;
+}    
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+
+.a-center{ 
+  text-align:center; 
+}
+
+
+
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.col-aligncenter {
+  float: none;
+  margin: 0 auto;
+}*/
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
